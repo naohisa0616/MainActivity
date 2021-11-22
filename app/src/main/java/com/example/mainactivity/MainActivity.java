@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
                 // 読み込んだ動画ファイルを画面に表示する
                 mMediaPlayer.setDisplay(holder);
                 //動画を再生
-//                mMediaPlayer.prepare();
-//                mMediaPlayer.start();
+                mMediaPlayer.prepare();
+                mMediaPlayer.start();
 
             } catch (IllegalArgumentException e) {
                 e.printStackTrace();
